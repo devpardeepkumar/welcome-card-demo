@@ -12,8 +12,7 @@ Built with **React + Vite + TypeScript** and plain CSS (no external UI libraries
 
 ## Live Demo
 
-[https://your-project-name.vercel.app](https://your-project-name.vercel.app)  
-*(Replace with your actual Vercel URL after deployment)*
+https://welcome-card-demo.vercel.app/
 
 ## Features
 
@@ -40,7 +39,7 @@ Built with **React + Vite + TypeScript** and plain CSS (no external UI libraries
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/welcome-card-demo.git
+git clone https://github.com/devpardeepkumar/welcome-card-demo.git
 cd welcome-card-demo
 
 # Install dependencies
