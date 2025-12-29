@@ -42,10 +42,16 @@ body,
 }
 
 .title {
-  font-size: 28px;
+font-size: 28px;
   font-weight: 600;
   margin: 0 0 36px 0;
   color: #000;
+  
+  /* NEW FIX: Wrap long text and respect card width */
+  word-break: break-word;        /* Breaks long words if needed */
+  overflow-wrap: break-word;     /* Modern standard for word wrapping */
+  hyphens: auto;                 /* Optional: adds hyphens for cleaner breaks */
+  max-width: 100%;
 }
 
 .title-input {
